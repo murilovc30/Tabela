@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table {
+    border-collapse: collapse;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    width: 60%;
+}
+td, th{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 20px;
+}
+td:nth-child(3){
+    background-color: rgba(223, 224, 255, 0.358);
+    color:black;
+}
+th:nth-child(1){
+    background-color: rgb(230, 230, 230);
+    color:black;
+}
+th:nth-child(2){
+    background-color: rgb(62, 62, 62);
+    color:rgb(255, 255, 255);
+}
+th:nth-child(3){
+    background-color: rgb(255, 83, 89);
+    color:rgb(255, 255, 255);
+}
+th:nth-child(4){
+    background-color: rgb(17, 255, 0);
+    color:rgb(255, 255, 255);
+}
+button{
+    background-color: rgb(255, 255, 255);
+    color:rgb(87, 34, 148);
+    border: rgb(130, 130, 130) 1px solid;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.SpecialB{
+    background-color: rgb(255, 83, 89);
+    color:rgb(255, 255, 255);
+}
